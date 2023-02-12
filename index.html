@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Proyecto cv Nick</title>
+    <link rel="stylesheet" href="css/nickcv.css">
+</head>
+<body>
+    <!--agregar index-->
+    <!--Menu del encabezado Principal-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Nick</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#Inicio" onclick="seleccionar()">Inicio</a>
+                    <li><a href="#acercademi" onclick="seleccionar()">Acerca de mi</a>
+                    <li><a href="#habilidades" onclick="seleccionar()">Habilidades</a>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a>
+                    <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav-responsive"onclick="mostrarOcultarmenu()"></div>
+            <i class="fa-sharp fa-solid fa-bars"></i>
+        </header>
+    </div>
+    <!--Seccion de inicio-->
+    <section id="Inicio" class="Inicio">
+        <div class="contenido-bannner">
+            <div class="contenedor-img">
+                <img src="https://cdn-images.livecareer.es/pages/foto_cv_lc_es_11.jpg" alt=""> 
+                <div>
+                 <h1>Nick Paterson</h1>
+                 <h2>senior developer</h2>
+                 <div class="redes">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    
+        </div>
+    </section>
+    <!--Seccion sobre mi-->
+    <section id="sobremi" class="sobremi">
+            <div class="contenido-seccion">
+                <h2>Sobre Mi</h2>                
+                <p><span>Hola,soy Nick.</span> Cuesta muchsisimo trabajo hacer este tipo de entregas espero que me sea suficiente para aprobar investige muchisimo mas que en el curso que se nos fue brindado</p>
+                <div class="fila">
+                    <!--datos personales-->
+                    <div class="col">
+                        <h3>datos personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                31-10-1990
+                            </li>
+                            <li>
+                                <strong>Telefono</strong>
+                                +5491161927614
+                            </li>
+                            <li>
+                                <strong>Corrreo electronico</strong>
+                                pijachica19@gmail.com
+                                <li>
+                                    <strong>Sitio web</strong>
+                                    www.w3schools.com    
+                                </li>
+                                <li>
+                                    <strong>Cargo</strong>
+                                   <span>Freelance</span> 
+                                </li>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--intereses-->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>JUEGOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>MUSICA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-plane"></i>
+                                <span>VIAJAR</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-brands fa-apple"></i>
+                                <span>MAC OS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-person-hiking"></i>
+                                <span>DEPORTE</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-book"></i>
+                                <span>LIBROS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-car"></i>
+                                <span>AUTOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-camera"></i>
+                                <span>FOTOS</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <button>
+                     <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                    <a href="https://www.google.com">Link al cv</a>
+                </button>
+            </div>
+    </section> 
+    <!-- Seccion habilidades -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- habilidades tecicas -->
+                <div class="col">
+                    <h3>Nivel de habilidades</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!--Seccion de curriculum-->
+<section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educación</h3>
+                <div class="item izq">
+                    <h4>Arte y Multimedia</h4>
+                    <span class="casa">Universidad de Oxford</span>
+                    <span class="fecha">2005 - 2008</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Arte y Multimedia</h4>
+                    <span class="casa">Universidad de Oxford</span>
+                    <span class="fecha">2005 - 2008</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Arte y Multimedia</h4>
+                    <span class="casa">Universidad de Oxford</span>
+                    <span class="fecha">2005 - 2008</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col derecha">
+                <h3>Experiencia de trabajo</h3>
+                <div class="item der">
+                    <h4>Front Developer</h4>
+                    <span class="casa">Nombre de Compañía</span>
+                    <span class="fecha">2005 - 2008</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Front Developer</h4>
+                    <span class="casa">Nombre de Compañía</span>
+                    <span class="fecha">2005 - 2008</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Front Developer</h4>
+                    <span class="casa">Nombre de Compañía</span>
+                    <span class="fecha">2005 - 2008</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="./Javacript/nickjcv.js"></script>
+</body>
+</html>
